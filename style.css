@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +13,9 @@ header {
     text-align: center;
     background-color: black;
 }
-.superior{}
+.superior{
+    height: 400px;
+}
 
 main {
     display: flex;
@@ -27,48 +30,51 @@ main {
     /* Apenas para visualização */
 }
 .lateral {
-    height:1500 ;
+    height: 600px;
 }
 
 
 footer{
-
-    
-    background-color: black;
+background-color: black;
     
 }
 .vertical{
     position: absolute;
-    bottom: -1300px;
-    left: 6000px;
+    bottom: -500px ;
+    left: 70% ;
     transform: rotate(90deg);
-    width:50% ;
-    height: 50%;
+    width: ;
+    height:700px ;
 }
-.logo{
-    position: absolute;
-    bottom: 40%;
-    left: 4250px;
-    width: 15%;
-}
-.icone1{
-    position: absolute;
-    bottom: 50%;
-    left: 8000px;
-}
-.icone2{
-    position: absolute;
-    bottom: 30%;
-    left: 6000px;
-}
-.icone3{
-    position: absolute;
-    bottom: 5%;
-    left: 6000px;
-}
-.icone4{
-    position: absolute;
-    bottom: -25%; 
-    left:6500px ;
+.icone{
+    height:200px ;
 }
 
+.icone1 img{
+    position: absolute;
+    bottom: ;
+    left: ;
+    height:200px ;
+
+}
+.icone2 img{
+    position: absolute;
+    bottom: ;
+    left: ;
+    height:200px;
+
+}
+.icone3 img{
+    position: absolute;
+    bottom: 300px;
+    left:2000px ;
+    height:200px;
+
+}
+.icone4 img{
+    position: absolute;
+    bottom: 300px; 
+    left: 2000px;
+    height: 200px; 
+    width: px;
+}
