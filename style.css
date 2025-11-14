@@ -1,80 +1,166 @@
-
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;}
-    
+    box-sizing: border-box;
+}
+
 body {
-    
-   background-color: black;
+
+    background-color: black;
 }
 
 header {
-    text-align: center;
+
     background-color: black;
 }
-.superior{
-    height: 400px;
+
+.superior {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    opacity: 60%;
 }
 
 main {
     display: flex;
     padding: 0%;
-    right: px;
     position: relative;
     min-height: 300px;
-    
+
     background-color: black;
     height: 2000px;
 
     /* Apenas para visualização */
 }
+
 .lateral {
-    height: 600px;
+    height: 400px;
+    position: relative;
+    bottom: -100px;
+    left: px;
+}
+
+footer {
+    background-color: black;
 }
 
 
-footer{
-background-color: black;
-    
-}
-.vertical{
+.icone1 {
+    height: 150px;
     position: absolute;
-    bottom: -500px ;
-    left: 70% ;
+    top: 30%;
+    left: 85%;
+    z-index: 2;
+}
+
+.icone2 {
+    height: 150px;
+    position: absolute;
+    top: 42%;
+    left: 71%;
+    z-index: 2;
+}
+
+.icone3 {
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 67%;
+    z-index: 2;
+}
+
+.icone4 {
+    height: 160px;
+    position: absolute;
+    top: 79%;
+    left: 71%;
+    z-index: 2;
+}
+
+.logo {
+    position: absolute;
+    height: 80px;
+    top: 39%;
+    left: 45%;
+
+}
+
+.vertical {
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
     transform: rotate(90deg);
-    width: ;
-    height:700px ;
-}
-.icone{
-    height:200px ;
 }
 
-.icone1 img{
-    position: absolute;
-    bottom: ;
-    left: ;
-    height:200px ;
+/*tablete*/
+@media (max-width:744px) {
+    body {
+        padding: 0;
+    }
 
-}
-.icone2 img{
-    position: absolute;
-    bottom: ;
-    left: ;
-    height:200px;
+    .superior {
+        width: 953px;
+        height: 253px;
+        position: relative;
+        left: -12%;
+    }
 
-}
-.icone3 img{
-    position: absolute;
-    bottom: 300px;
-    left:2000px ;
-    height:200px;
+    .lateral {
+        width: 435px;
+        height: 275px;
+        position: absolute;
+        top: 10%;
+        opacity:60% ;
+    }
 
-}
-.icone4 img{
-    position: absolute;
-    bottom: 300px; 
-    left: 2000px;
-    height: 200px; 
-    width: px;
-}
+    .logo {
+        width: 242px;
+        height: 63px;
+        position: absolute;
+        left: 40%;
+        top: 30%;
+    }
+
+    .vertical {
+        width: 510.86px;
+        height: 263.74;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+    }
+
+    .icone1 {
+        height: 90px;
+        position: absolute;
+        top: 52%;
+        left: 75%;
+        z-index: 2;
+    }
+
+    .icone2 {
+        height: 90px;
+        position: absolute;
+        top: 60%;
+        left: 59%;
+        z-index: 2;
+    }
+
+    .icone3 {
+        height: 90px;
+        position: absolute;
+        top: 70%;
+        left: 53%;
+        z-index: 2;
+    }
+
+    .icone4 {
+        height: 90px;
+        position: absolute;
+        top: 83%;
+        left: 53%;
+        z-index: 2;
+    }
+
+    
